@@ -1,6 +1,6 @@
 # Nike Landing Page Clone
 
-Este repositorio contiene una recreación de la famosa landing page de Nike, implementada utilizando React.js y Tailwind CSS. La landing page original de Nike es conocida por su diseño moderno, experiencia de usuario intuitiva y la capacidad de resaltar productos de manera impactante. Este proyecto busca aprender y demostrar habilidades en el desarrollo web utilizando tecnologías populares.
+Este repositorio contiene una recreación de la famosa landing page de Nike inspirada en el video de JavaScript Mastery, implementada utilizando React.js y Tailwind CSS. La landing page original de Nike es conocida por su diseño moderno, experiencia de usuario intuitiva y la capacidad de resaltar productos de manera impactante. Este proyecto busca aprender y demostrar habilidades en el desarrollo web utilizando tecnologías populares.
 
 ## Características Principales
 
