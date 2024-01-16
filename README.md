@@ -1,8 +1,15 @@
-# React + Vite
+# Nike Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene una recreación de la famosa landing page de Nike inspirada en el video de JavaScript Mastery, implementada utilizando React.js y Tailwind CSS. La landing page original de Nike es conocida por su diseño moderno, experiencia de usuario intuitiva y la capacidad de resaltar productos de manera impactante. Este proyecto busca aprender y demostrar habilidades en el desarrollo web utilizando tecnologías populares.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js:** Utilizamos React.js para construir una interfaz de usuario dinámica y modular.
+- **Tailwind CSS:** Aplicamos Tailwind CSS para un desarrollo rápido y estilización eficiente.
+- **Diseño Responsivo:** La aplicación es completamente responsiva, garantizando una experiencia de usuario óptima en una variedad de dispositivos.
+
+## Cómo Empezar
+
+1. **Clonar el Repositorio:**
+   ```bash
+   git clone https://github.com/tuusuario/nike-landing-page-clone.git
