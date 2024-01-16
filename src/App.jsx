@@ -9,7 +9,7 @@ import {
   Footer,
 } from './sections'
 
-import Nav from './components/nav'
+import {Nav} from './components'
 
 const App = () => (
   <main className='relative'>

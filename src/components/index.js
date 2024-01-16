@@ -1,9 +1,11 @@
-import Button from './button';
-import Nav from './nav';
-import ShoeCard from './shoe-card';
+import Button from './Button';
+import Nav from './Nav';
+import ShoeCard from './ShoeCard';
+import PopularProductCard from './PopularProductCard';
 
 export {
   Button,
   ShoeCard,
-  Nav
+  Nav,
+  PopularProductCard
 }
