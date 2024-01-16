@@ -1,12 +1,12 @@
 import {
+  CustomerReviews,
+  Footer,
   Hero,
   PopularProducts,
-  SuperQuality,
   Services,
   SpecialOffer,
-  CustomerReviews,
   Subscribe,
-  Footer,
+  SuperQuality,
 } from './sections'
 
 import {Nav} from './components'
