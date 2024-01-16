@@ -1,15 +1,15 @@
-# Nike Landing Page Clone
+# Nike Landing Page Clone ✔
 
-Este repositorio contiene una recreación de la famosa landing page de Nike inspirada en el video de JavaScript Mastery, implementada utilizando React.js y Tailwind CSS. La landing page original de Nike es conocida por su diseño moderno, experiencia de usuario intuitiva y la capacidad de resaltar productos de manera impactante. Este proyecto busca aprender y demostrar habilidades en el desarrollo web utilizando tecnologías populares.
+This repository contains a recreation of the famous Nike landing page inspired by the JavaScript Mastery video, implemented using React.js and Tailwind CSS. Nike's original landing page is known for its modern design, intuitive user experience, and the ability to showcase products in a stunning manner. This project aims to learn and demonstrate web development skills using popular technologies.
 
-## Características Principales
+## Key Features 🔑
 
-- **React.js:** Utilizamos React.js para construir una interfaz de usuario dinámica y modular.
-- **Tailwind CSS:** Aplicamos Tailwind CSS para un desarrollo rápido y estilización eficiente.
-- **Diseño Responsivo:** La aplicación es completamente responsiva, garantizando una experiencia de usuario óptima en una variedad de dispositivos.
+- **React.js:** We use React.js to build a dynamic and modular user interface.
+- **Tailwind CSS:** We apply Tailwind CSS for rapid development and efficient styling.
+- **Responsive Design:** The application is fully responsive, ensuring an optimal user experience on a variety of devices.
 
-## Cómo Empezar
+## Getting Started
 
-1. **Clonar el Repositorio:**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/tuusuario/nike-landing-page-clone.git
