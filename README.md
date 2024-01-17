@@ -12,4 +12,4 @@ This repository contains a recreation of the famous Nike landing page inspired b
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/tuusuario/nike-landing-page-clone.git
+   git clone https://github.com/youruser/nike-landing-page-clone.git
