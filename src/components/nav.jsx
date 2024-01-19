@@ -2,7 +2,7 @@ import { headerLogo } from '../assets/images';
 import { hamburger } from '../assets/icons';
 import { navLinks } from '../constants/index';
 
-const Nav = () => {
+const Nav = ({ setStateNavMobile }) => {
   return (
     <header className='padding-x py-8 z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
@@ -22,7 +22,14 @@ const Nav = () => {
           ))}
         </ul>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='hamburguer' width={25} height={25} />
+          <img
+            src={hamburger}
+            alt='hamburguer'
+            width={25}
+            height={25}
+            className='cursor-pointer'
+            onClick={setStateNavMobile}
+          />
         </div>
       </nav>
     </header>

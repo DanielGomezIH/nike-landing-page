@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/close.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css');
 
 @tailwind base;
 @tailwind components;
@@ -54,5 +56,13 @@
 
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+
+  .overlayStyles {
+    @apply absolute w-full h-full top-0 left-0 z-30 bg-[#1212125c] backdrop-blur-sm transition ease-in-out delay-150;
+  }
+
+  .menuStyles {
+    @apply absolute h-full top-0 z-40 bg-white w-[320px] right-0 py-10 pl-9 pr-8 shadow-3xl;
   }
 }
