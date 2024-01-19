@@ -8,10 +8,10 @@ import MobileNavCard from './MobileNavCard';
 
 export {
   Button,
-  ShoeCard,
+  MobileNavCard,
   Nav,
   PopularProductCard,
-  ServiceCard,
   ReviewCard,
-  MobileNavCard
+  ServiceCard,
+  ShoeCard,
 };

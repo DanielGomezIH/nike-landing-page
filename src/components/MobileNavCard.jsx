@@ -2,10 +2,10 @@ import { navLinks } from '../constants/index';
 
 const MobileNavCard = ({ navMobileStyles, setStateNavMobile }) => {
   return (
-    <section className={navMobileStyles}>
-      <div className={'overlayStyles'}></div>
+    <section>
+      <div className={`overlayStyles ${navMobileStyles}`}></div>
 
-      <div className={'menuStyles'}>
+      <div className={`menuStyles ${navMobileStyles}`}>
         <div className='flex justify-end'>
           <button
             onClick={setStateNavMobile}
@@ -15,7 +15,7 @@ const MobileNavCard = ({ navMobileStyles, setStateNavMobile }) => {
           </button>
         </div>
 
-        <div className='flex flex-col'>
+        <div className={`flex flex-col `}>
           {navLinks.map((link) => (
             <div
               key={link.label}

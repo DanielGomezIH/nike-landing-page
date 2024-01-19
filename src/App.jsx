@@ -15,7 +15,9 @@ import {
 const App = () => {
   const [stateNavMobile, setStateNavMobile] = useState(false);
 
-  const navMobileStyles = stateNavMobile ? 'hidden max-lg:block' : 'hidden';
+  const navMobileStyles = stateNavMobile
+    ? 'showNavMobileCard'
+    : 'hiddeNavMobileCard';
 
   const handleClick = () => {
     return setStateNavMobile(!stateNavMobile);
@@ -24,7 +26,6 @@ const App = () => {
   return (
     <main className='relative'>
       <Nav setStateNavMobile={handleClick} />
-
       <MobileNavCard
         navMobileStyles={navMobileStyles}
         setStateNavMobile={handleClick}
