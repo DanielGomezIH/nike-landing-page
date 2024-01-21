@@ -4,8 +4,8 @@ import { navLinks } from '../constants/index';
 
 const Nav = ({ setStateNavMobile }) => {
   return (
-    <header className=' relative padding-x py-8 z-10 w-full'>
-      <nav className='flex justify-between items-center max-container'>
+    <header className=' relative padding-x py-8 z-10 w-full bg-[#F5F6FF]'>
+      <nav className='flex justify-between items-center max-container '>
         <a href='/'>
           <img src={headerLogo} alt='logo nike' width={130} height={29} />
         </a>
@@ -13,7 +13,7 @@ const Nav = ({ setStateNavMobile }) => {
           {navLinks.map((item) => (
             <li key={item.label}>
               <a
-                className='font-montserrat leading-normal text-lg text-slate-gray'
+                className='font-montserrat leading-normal text-lg bg-white text-slate-gray hover:text-white duration-300 border-2 hover:bg-coral-red rounded-full p-4'
                 href={item.href}
               >
                 {item.label}
