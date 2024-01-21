@@ -5,7 +5,7 @@ import PopularProductCard from './PopularProductCard';
 import ServiceCard from './ServiceCard';
 import ReviewCard from './ReviewCard';
 import MobileNavCard from './MobileNavCard';
-import ScrollUpButton from './scrollup';
+import ScrollUpButton from './ScrollUpButton';
 
 
 export {
