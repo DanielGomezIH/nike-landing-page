@@ -25,8 +25,8 @@
   }
 
   .scroll-up {
-    @apply fixed bottom-4 right-4 bg-coral-red  text-white px-2 py-1 rounded text-[1.25rem]
-    hover:transform hover:-translate-y-1 transition-transform duration-300 rounded-full z-50
+    @apply fixed bottom-4 right-4 bg-coral-red  text-white px-2 py-1  text-[1.25rem]
+    hover:transform hover:-translate-y-1 transition-transform duration-300 rounded-full z-20;
   }
 }
 
@@ -76,8 +76,6 @@
   }
 
   .hiddeNavMobileCard {
-    @apply  transition duration-300 opacity-0 translate-x-full  ;
+    @apply transition duration-300 opacity-0 translate-x-full;
   }
 }
-
-

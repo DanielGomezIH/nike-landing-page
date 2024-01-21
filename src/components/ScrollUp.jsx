@@ -1,11 +1,9 @@
 const ScrollUpButton = () => {
   return (
     <>
-      <button className='scroll-up'>
-        <a href='#'>
-          <i className='ri-arrow-up-line '></i>
-        </a>
-      </button>
+      <a href='#' className='scroll-up'>
+        <i className='ri-arrow-up-line '></i>
+      </a>
     </>
   );
 };

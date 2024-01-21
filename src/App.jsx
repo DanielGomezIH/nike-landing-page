@@ -25,8 +25,10 @@ const App = () => {
 
   return (
     <main className='relative'>
-      <ScrollUpButton/>
+      <ScrollUpButton />
+
       <Nav setStateNavMobile={handleClick} />
+
       <MobileNavCard
         navMobileStyles={navMobileStyles}
         setStateNavMobile={handleClick}
