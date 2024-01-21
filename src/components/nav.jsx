@@ -4,7 +4,10 @@ import { navLinks } from '../constants/index';
 
 const Nav = ({ setStateNavMobile }) => {
   return (
-    <header className=' relative padding-x py-8 z-10 w-full bg-[#F5F6FF]'>
+    <header
+      id='nav_menu'
+      className='relative padding-x py-8 z-10 w-full bg-[#F5F6FF]'
+    >
       <nav className='flex justify-between items-center max-container '>
         <a href='/'>
           <img src={headerLogo} alt='logo nike' width={130} height={29} />

@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { MobileNavCard, Nav, ScrollUpButton } from './components';
+import ScrollReveal from 'scrollreveal';
 
 import {
   CustomerReviews,
@@ -13,6 +14,20 @@ import {
 } from './sections';
 
 const App = () => {
+  useEffect(() => {
+    const sr = ScrollReveal();
+
+    sr.reveal(
+      '#nav_menu, #home, #products, #about-us, #services, #special-offer, #reviews, #contact-us',
+      {
+        origin: 'top',
+        distance: '20px',
+        duration: 1000,
+        delay: 200,
+      }
+    );
+  }, []);
+
   const [stateNavMobile, setStateNavMobile] = useState(false);
 
   const navMobileStyles = stateNavMobile
