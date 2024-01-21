@@ -18,7 +18,7 @@ const App = () => {
     const sr = ScrollReveal();
 
     sr.reveal(
-      '#home, #products, #about-us, #services, #special-offer, #reviews, #contact-us',
+      '#nav_menu, #home, #products, #about-us, #services, #special-offer, #reviews, #contact-us',
       {
         origin: 'top',
         distance: '20px',
