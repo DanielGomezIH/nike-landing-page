@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MobileNavCard, Nav } from './components';
+import { MobileNavCard, Nav, ScrollUpButton } from './components';
 
 import {
   CustomerReviews,
@@ -25,6 +25,7 @@ const App = () => {
 
   return (
     <main className='relative'>
+      <ScrollUpButton/>
       <Nav setStateNavMobile={handleClick} />
       <MobileNavCard
         navMobileStyles={navMobileStyles}
