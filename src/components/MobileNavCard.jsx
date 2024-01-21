@@ -2,7 +2,7 @@ import { navLinks } from '../constants/index';
 
 const MobileNavCard = ({ navMobileStyles, setStateNavMobile }) => {
   return (
-    <section>
+    <section className='hidden max-lg:block '>
       <div className={`overlayStyles ${navMobileStyles}`}></div>
 
       <div className={`menuStyles ${navMobileStyles}`}>
